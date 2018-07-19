@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Mi formulario</title>
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <div>
+        <label for="nombre">nombre</label>
+        <input type="text" id="nombre"  name="nombre_usuario">
+      </div>
+      <div>
+        <label for="apellido">apellido</label>
+        <input type="text" id="apellido"  name="apellido_usuario">
+      </div>
+      <div>
+        <label for="mail">E-mail</label>
+        <input type="email" id="mail"  name="mail_usuario">
+      </div>
+      <div>
+        <label for="msj">Mensaje</label>
+        <textarea id="msj" cols="30" rows="10" name="mensaje_usuario"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit" type="reset">Enviar mensaje </button>
+      </div>
+    </form>
+    <form>
+      <fieldset>
+        <legend>tamaño</legend>
+        <p>
+          <input type="radio" name="size" id="size_1" value="pequeño">
+          <label for="size_1">pequeño</label>
+        </p>
+        <p>
+          <input type="radio" name="size" id="size_2" value="medio">
+          <label for="size_2">medio</label>
+        </p>
+        <p>
+          <input type="radio" name="size" id="size_3" value="grande">
+          <label for="size_3">grande</label>
+        </p>
+      </fieldset>
+    </form>
+    <select id="grupos" name="grupos">
+      <optgroup label="frutas">
+        <option>manzanas</option>
+        <option>banana</option>
+        <option>kiwi</option>
+      </optgroup>
+      <optgroup label="vegetales">
+      <option>lechuga</option>
+      <option>pepino</option>
+      <option>papa</option>
+      <option>zanaoria</option>
+      </optgroup>
+    </select>
+    <input type="checkbox" name="manzanas"value="manzanas">
+    <input type="checkbox" name="banana"value="banana">
+    <input type="checkbox" name="kiwi"value="kiwi">
+  </body>
+</html>
