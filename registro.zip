@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registor</title>
+    <h1>Registro</h1>
+      <link rel="stylesheet" href="style final.css">
+  </head>
+  <body3 background="img/halo.png">
+    <form action="Registor.html" method="post">
+      <div>
+        <label for="nombre">nombre</label>
+        <input type="text" id="nombre"  name="nombre_usuario" placeholder="Escribe tu nombre">
+      </div>
+      <div>
+        <label for="apellido">apellido</label>
+        <input type="text" id="apellido"  name="apellido_usuario" placeholder="Escribe tu apellido">
+      </div>
+      <div>
+        <label for="mail">E-mail</label>
+        <input type="email" id="mail"  name="mail_usuario" placeholder="Escribe tu email">
+      </div>
+      <div>
+        <label for="contraseña">contraseña</label>
+        <input type="password" id="contraseña"  name="contraceña_usuario" placeholder="*******">
+      </div>
+      <div>
+        <label for="conf.contraseña">conf.contraseña</label>
+        <input type="password" id="contraseña"  name="contraceña_usuario" placeholder="*******">
+      </div>
+  </body3>
+</html>
