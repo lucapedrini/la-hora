@@ -1,0 +1,75 @@
+#compra{
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-shadow: 3px 3px 3px #000000;
+  background-color: black;
+}
+img{
+  height: 300px;
+  width: 200px;
+}
+file:///C:/Users/Admin.DESKTOP-HT5Q6EV/Documents/GitHub/luca1111.github.com/registro.html{
+  margin: 0;padding: 0;
+  background-color: white;
+}
+header{
+  width: 100%;
+  overflow:hidden;
+  background:#252932;
+  margin-bottom:20px;
+}
+
+.wrapper{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+header .logo{
+  color:white;
+  font-size:30px ;
+  line-height:300px ;
+  float: left;
+}
+header nav{
+  float: right;
+  line-height: 300px;
+  font-family: monospace;
+}
+header nav a{
+  display: inline-block;
+  color:white;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+div b {
+  margin: auto;
+}
+body p {
+  font-family: fantasy;
+  color:
+}
+
+body {
+background-size: 100% 100%;
+  background-image: url(img/halo.png);
+}
+body1{
+  background-size: 100% 100%;
+    background-image: url(img/halo.png);
+}
+body3{
+  background-size: 50% 50%;
+    background-image: url(img/halo.png);
+}
+body2{
+  background-size: 50% 50%;
+    background-image: url(img/halo.png);
+}
+div p2 a {
+  color: white;
+}
