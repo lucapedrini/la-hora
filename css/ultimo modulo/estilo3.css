@@ -1,0 +1,36 @@
+el titulo:
+h1{
+  color: blue;
+  background-color: green;
+  width: 250px;
+  position: fixed;
+}
+el cuerpo de la pagina
+body{
+  display:inline
+}
+body p1 {
+  color: blue;
+  width: 250px;
+  background-color: red;
+}
+body p2 {
+  color: yellow;
+  width: 350px;
+  background-color: black;
+}
+body p3{
+  color: violet;
+  width: 350px;
+  background-color: grey;
+}
+button{
+  color: red;
+  background-color: black;
+  box-shadow: 25% 30%;
+  border-radius: 20px 20px;
+}
+button2{
+  color:blue;
+
+}

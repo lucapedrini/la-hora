@@ -1,3 +1,10 @@
+
+body {
+  background:"img/halo.png";
+  margin: 0px;
+  padding: 0px;
+}
+
 #compra{
   border: none;
   color: white;
@@ -27,10 +34,12 @@ header{
   overflow: hidden;
 }
 header .logo{
+  margin-top: 0%;
   color:white;
   font-size:30px ;
   line-height:300px ;
   float: left;
+  position: fixed;
 }
 header nav{
   float: right;
@@ -58,18 +67,40 @@ body {
 background-size: 100% 100%;
   background-image: url(img/halo.png);
 }
-body1{
+.body1{
   background-size: 100% 100%;
     background-image: url(img/halo.png);
 }
-body3{
+.body3{
   background-size: 50% 50%;
     background-image: url(img/halo.png);
 }
-body2{
+.body2{
   background-size: 50% 50%;
     background-image: url(img/halo.png);
 }
 div p2 a {
+  color: white;
+}
+#boton2{
+  background-color: red;
+  color:black;
+  box-shadow: 2px 2px;
+}
+#h3{
+  color: white;
+  text-align: center;
+  margin-top: 22%;
+  text-decoration:
+}
+#image{
+  height: 200%;
+  width: 200%;
+}
+
+#D{
+  color: white;
+}
+#in{
   color: white;
 }
