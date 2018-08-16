@@ -1,0 +1,46 @@
+body{
+  background-color:blue;
+}
+#papa{
+  margin: 0 auto;
+  width: 800px ;
+  height: 400px ;
+  margin-top: 90px;
+  background-color: red;
+}
+#hijo1{
+  display: inline-block;
+  float: left;
+  width: 50% ;
+  height: 50%;
+  background-color: green;
+}
+#hijo2{
+  display: inline-block;
+  float: left;
+  width: 50% ;
+  height: 50%;
+  background-color: white;
+}
+#hijo3{
+  display: inline-block;
+  float: left;
+  width: 33% ;
+  height: 50%;
+  background-color: ;
+}
+#hijo4{
+  display: inline-block;
+  float: left;
+  width: 33% ;
+  height: 50%;
+  background-color: black;
+}
+#hijo5{
+
+  display: inline-block;
+  float: left;
+  width: 34% ;
+  height: 50%;
+  background-color: grey;
+}

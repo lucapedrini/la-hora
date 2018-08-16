@@ -1,8 +1,12 @@
 
-body {
+#trabajofinal{
   background:"img/halo.png";
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+
   margin: 0px;
   padding: 0px;
+  border: 20px 30px
 }
 
 #compra{
@@ -11,14 +15,20 @@ body {
   cursor: pointer;
   text-shadow: 3px 3px 3px #000000;
   background-color: black;
+  right: 30px;
+
 }
-img{
-  height: 300px;
-  width: 200px;
+#logo{
+  margin-top: 0%;
+  color:white;
+  font-size:30px ;
+  line-height:300px ;
+  float: left;
 }
-file:///C:/Users/Admin.DESKTOP-HT5Q6EV/Documents/GitHub/luca1111.github.com/registro.html{
-  margin: 0;padding: 0;
-  background-color: white;
+#registro{
+  background="img/halo.png"
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
 }
 header{
   width: 100%;
@@ -32,14 +42,6 @@ header{
   max-width: 1000px;
   margin: auto;
   overflow: hidden;
-}
-header .logo{
-  margin-top: 0%;
-  color:white;
-  font-size:30px ;
-  line-height:300px ;
-  float: left;
-  position: fixed;
 }
 header nav{
   float: right;
@@ -67,8 +69,8 @@ body {
 background-size: 100% 100%;
   background-image: url(img/halo.png);
 }
-.body1{
-  background-size: 100% 100%;
+#consulta{
+  background-size: 100% 150%;
     background-image: url(img/halo.png);
 }
 .body3{
@@ -86,6 +88,7 @@ div p2 a {
   background-color: red;
   color:black;
   box-shadow: 2px 2px;
+
 }
 #h3{
   color: white;
@@ -103,4 +106,36 @@ div p2 a {
 }
 #in{
   color: white;
+}
+#inicio{
+
+}
+#info{
+  padding: 0px;
+  border: 0px;
+  color:black;
+  height: auto;
+  margin: auto;
+  background-image:url(img/juego1.jpg);
+  background-size: 100% 300% ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+#info2{
+  color: red;
+}
+#info3{
+font-family:"Verdana";
+margin-top: 10%;
+}
+#inicio{
+
+}
+#nombre{
+  color: red;
+  margin: 0 auto;
+}
+#enviar{
+  background-color: blue;
+  color: red;
 }
