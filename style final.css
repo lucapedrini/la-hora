@@ -3,10 +3,9 @@
   background:"img/halo.png";
   background-repeat: no-repeat;
   background-size: 100% 100% ;
-
   margin: 0px;
   padding: 0px;
-  border: 20px 30px
+  border: auto;
 }
 
 #compra{
@@ -22,12 +21,12 @@
   margin-top: 0%;
   color:white;
   font-size:30px ;
-  line-height:300px ;
+  line-height:45px ;
   float: left;
 }
 #registro{
   background="img/halo.png"
-  background-size: 100% 100% ;
+  background-size: 100% 300% ;
   background-repeat: no-repeat;
 }
 header{
@@ -37,16 +36,17 @@ header{
   margin-bottom:20px;
 }
 
-.wrapper{
+#juego1{
   width: 90%;
   max-width: 1000px;
   margin: auto;
   overflow: hidden;
 }
-header nav{
+#opciones{
   float: right;
-  line-height: 300px;
+  line-height: 30px;
   font-family: monospace;
+  height: 30px;
 }
 header nav a{
   display: inline-block;
@@ -59,6 +59,7 @@ header nav a{
 }
 div b {
   margin: auto;
+  background-color: red;
 }
 body p {
   font-family: fantasy;
@@ -108,7 +109,8 @@ div p2 a {
   color: white;
 }
 #inicio{
-
+  background-size: 100% 600%;
+  background-repeat:no-repeat;
 }
 #info{
   padding: 0px;
@@ -116,10 +118,11 @@ div p2 a {
   color:black;
   height: auto;
   margin: auto;
-  background-image:url(img/juego1.jpg);
-  background-size: 100% 300% ;
+  background-size: 100% 75% ;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  background: rgba(0,0,0,0.5);
+  background-image:url(img/juego1.jpg);
 }
 #info2{
   color: red;
@@ -127,6 +130,8 @@ div p2 a {
 #info3{
 font-family:"Verdana";
 margin-top: 10%;
+height: 20%;
+padding: 30%;
 }
 #inicio{
 
@@ -138,4 +143,8 @@ margin-top: 10%;
 #enviar{
   background-color: blue;
   color: red;
+}
+#numero{
+  background-color: red;
+  width: 39.5%;
 }
