@@ -1,21 +1,89 @@
 
 #trabajofinal{
-  background:"img/halo.png";
   background-repeat: no-repeat;
-  background-size: 100% 100% ;
   margin: 0px;
   padding: 0px;
-  border: auto;
+  background-size: 100% 135%;
+  background-image: url(img/halo.png);
 }
+#orden{
+  display: inline-flex;
+  margin-top: 7%;
+}
+#juego1{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 10px;
+}
+#juego2{
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+#juego3{
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  padding: 5%;
+}
+#juego4{
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  padding: 40px;
+}
+#juego5{
+    height: 50%;
+    width: 45%;
+    margin: auto;
+    overflow: hidden;
+    padding: 30%;
+}
+#solucion1{
 
+}
+#solucion2{
+  width: 100%;
+  height: 70%;
+}
+#solucion3{
+  width: 100%;
+  height: 100%;
+}
+#solucion4{
+
+}
+#solucion5{
+  height: 20%;
+  width: 60%;
+}
+#solucion0{
+  height: 20%;
+  width: 50%;
+  padding-left: 5%;
+
+}
+#solucion1{
+
+}
+#ultimo0{
+
+}
 #compra{
   border: none;
-  color: white;
   cursor: pointer;
   text-shadow: 3px 3px 3px #000000;
-  background-color: black;
+  background-color: red;
   right: 30px;
-
+}
+#compra2{
+  color: white;
 }
 #logo{
   margin-top: 0%;
@@ -25,9 +93,11 @@
   float: left;
 }
 #registro{
-  background="img/halo.png"
-  background-size: 100% 300% ;
+  background-image: url("img/halo.png");
+  background-size: 100% 180% ;
   background-repeat: no-repeat;
+  padding-left: 35%;
+  padding-top: 14.5%;
 }
 header{
   width: 100%;
@@ -35,40 +105,31 @@ header{
   background:#252932;
   margin-bottom:20px;
 }
-
-#juego1{
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;
-}
 #opciones{
   float: right;
   line-height: 30px;
   font-family: monospace;
   height: 30px;
 }
-header nav a{
+#referencias1{
   display: inline-block;
-  color:white;
   text-decoration: none;
   padding: 10px 20px;
   line-height: normal;
   font-size: 20px;
   font-weight: bold;
 }
-div b {
-  margin: auto;
-  background-color: red;
+#consultando{
+    color:white;
 }
-body p {
-  font-family: fantasy;
-  color:
+#registrando{
+    color:white;
 }
-
-body {
-background-size: 100% 100%;
-  background-image: url(img/halo.png);
+#contenedor{
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 #consulta{
   background-size: 100% 150%;
@@ -83,7 +144,7 @@ background-size: 100% 100%;
     background-image: url(img/halo.png);
 }
 div p2 a {
-  color: white;
+  color: cornsilk;
 }
 #boton2{
   background-color: red;
@@ -101,16 +162,27 @@ div p2 a {
   height: 200%;
   width: 200%;
 }
-
-#D{
-  color: white;
-}
-#in{
-  color: white;
-}
 #inicio{
-  background-size: 100% 600%;
+  background-size: 100% 170%;
   background-repeat:no-repeat;
+  background-image: url("img/halo.png");
+}
+#inicio2{
+ margin-left: 40%;
+ margin-top: 20%;
+ color: white;
+ font-size: 250%;
+}
+#inicio5{
+  text-shadow: 0 0 0.2em #8F7;
+}
+#inicio3{
+  margin-left: 33%;
+  font-size: 250%;
+}
+#inicio4{
+ text-shadow: 0 0 0.2em #8F7;
+
 }
 #info{
   padding: 0px;
@@ -137,8 +209,34 @@ padding: 30%;
 
 }
 #nombre{
-  color: red;
-  margin: 0 auto;
+  color: black;
+  width: 60%;
+  height: 40%;
+  padding: 0.6%
+}
+#apellido{
+  color: black;
+  width: 60%;
+  height: 40%;
+  padding: 0.6%
+}
+#email{
+  color: black;
+  width: 60%;
+  height: 40%;
+  padding: 0.6%
+}
+#contraseña{
+  color: black;
+  width: 60%;
+  height: 40%;
+  padding: 0.6%
+}
+#cont2{
+  color: black;
+  width: 60%;
+  height: 40%;
+  padding: 0.6%
 }
 #enviar{
   background-color: blue;
@@ -147,4 +245,56 @@ padding: 30%;
 #numero{
   background-color: red;
   width: 39.5%;
+}
+#infoMW2{
+  background-image: url("img/lol2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 360%;
+}
+#infoMW{
+  padding-left: 35%;
+  color: white;
+}
+#infoMF{
+  color: white;
+  font-weight: bolder;
+}
+#infolo0{
+  background-image: url("img/lol2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 400%;
+}
+#infolol{
+  padding-left: 40%;
+  color: blue;
+}
+#infolol2{
+  color: white;
+  font-weight: bolder;
+}
+#infoAW{
+  background-image: url("img/lol2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 400%;
+}
+#infoAW4{
+  padding-left: 40%;
+  color: blue;
+}
+#infoAW5{
+  color: white;
+  font-weight: bolder;
+}
+#infoDF{
+  background-image: url("img/lol2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 400%;
+}
+#infoDF2{
+  padding-left: 40%;
+  color: blue;
+}
+#infoDF3{
+  color: white;
+  font-weight: bolder;
 }
