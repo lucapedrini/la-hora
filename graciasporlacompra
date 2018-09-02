@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="style final.css">
+      <meta name="viewport" content="width=device-width,
+      initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body background="img/halo.png">
+    <div class="gracias">
+      <h1 id="h3">gracias por su compra</h1>
+    </div>
+  </body>
+</html>

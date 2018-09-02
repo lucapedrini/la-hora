@@ -26,7 +26,7 @@
 .compra2{
   color: white;
 }
-#logo{
+.logo{
   margin-top: 0%;
   color:white;
   font-size:30px ;
@@ -45,6 +45,7 @@ header{
   overflow:hidden;
   background:#252932;
   margin-bottom:20px;
+  color: red;
 }
 #opciones{
   float: right;
@@ -52,7 +53,7 @@ header{
   font-family: monospace;
   height: 30px;
 }
-#referencias1{
+.referencias1{
   display: inline-block;
   text-decoration: none;
   padding: 10px 20px;
@@ -60,10 +61,10 @@ header{
   font-size: 20px;
   font-weight: bold;
 }
-#consultando{
+.consultando{
     color:white;
 }
-#registrando{
+.registrando{
     color:white;
 }
 #contenedor{
@@ -85,7 +86,7 @@ header{
     background-image: url(img/halo.png);
 }
 div p2 a {
-  color: cornsilk;
+  color: red;
 }
 #boton2{
   background-color: red;
@@ -125,7 +126,7 @@ div p2 a {
  text-shadow: 0 0 0.2em #8F7;
 
 }
-#info{
+.info{
   padding: 0px;
   border: 0px;
   color:black;
