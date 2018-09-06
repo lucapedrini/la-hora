@@ -40,13 +40,6 @@ img{
   line-height:45px ;
   width: 37%;
 }
-#registro{
-  background-image: url("img/halo.png");
-  background-size: 100% 180% ;
-  background-repeat: no-repeat;
-  padding-left: 35%;
-  padding-top: 14.5%;
-}
 header{
   width: 100%;
   overflow:hidden;
@@ -123,6 +116,11 @@ a{
   color: white;
 }
 /*el registro*/
+#registro{
+  background-image: url("img/halo.png");
+  background-size: 100% 180% ;
+  background-repeat: no-repeat;
+}
 .nombre{
   color: black;
   width: 60%;
@@ -223,7 +221,7 @@ a{
     text-align: center;
     color: green;
     font-size: 25px;
-    padding-left: 153px;
+    padding-left: 30%;
     width: 40%;
   }
   .referencias1 a{
@@ -236,4 +234,5 @@ a{
     float: none;
 
   }
+
 }

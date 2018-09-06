@@ -4,17 +4,26 @@
     <meta charset="utf-8">
     <title>Registor</title>
     <link rel="stylesheet" href="style final.css">
-    <h1>Registro</h1>
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1, shrink-to-fit=no">
   </head>
   <body id="registro">
+  <header>
+    <a href="index.html"><h1 id="logo">La hora de jugar</h1></a>
+      <div class ="referencias1">
+        <a  href="registro.html">Registro</a>
+        <a  href="consulta.html">Problemas</a>
+      </div>
+  </header>
     <form action="Registor.html" method="post">
+      <h1>Registro</h1>
       <div class="nombre">
         <label for="nombre">nombre</label>
-        <input type="text" class="nombre"  name="nombre_usuario" placeholder="Escribe tu nombre">
+        <input type="text" class="nombre" maxlength="30" name="nombre_usuario" placeholder="Escribe tu nombre">
       </div>
       <div class="apellido">
         <label for="apellido">apellido</label>
-        <input type="text" class="apellido"  name="apellido_usuario" placeholder="Escribe tu apellido">
+        <input type="text" class="apellido" maxlength="30" name="apellido_usuario" placeholder="Escribe tu apellido">
       </div>
       <div class="email">
         <label for="mail">E-mail</label>
@@ -22,11 +31,11 @@
       </div>
       <div class="contraseña">
         <label for="contraseña">contraseña</label>
-        <input type="password" class="contraseña"  name="contraceña_usuario" placeholder="*******">
+        <input type="password" class="contraseña" pattern="{0}|.{8,24}"   name="contraceña_usuario" placeholder="*******" required title="minimo de 8 maximo de 24">
       </div>
       <div class="cont2">
         <label for="conf.contraseña">conf.contraseña</label>
-        <input type="password" class="contraseña"  name="contraceña_usuario" placeholder="*******">
+        <input type="password" class="contraseña" pattern="{0}|.{8,24}"   name="contraceña_usuario" placeholder="*******" required title="minimo de 8 maximo de 24">
       </div>
       <button type="reset" name="button" id="boton2">Registrar</button>
   </body>
