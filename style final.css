@@ -1,4 +1,7 @@
 /*pagina central por asi decirlo*/
+img{
+  vertical-align: middle;
+}
 #trabajofinal{
   background-repeat: no-repeat;
   margin: 0px;
@@ -16,6 +19,7 @@
 }
 .divj {
   display:inline-flex;
+  margin-bottom: 5px;
 }
 .compra{
   border: none;
@@ -216,8 +220,11 @@ a{
 /*responsive*/
 @media screen and (max-width:600px) {
   #logo {
-    text-align:center;
+    text-align: center;
     color: green;
+    font-size: 25px;
+    padding-left: 153px;
+    width: 40%;
   }
   .referencias1 a{
     color:white;
