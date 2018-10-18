@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
 var person = [
   {nombre: "luca", apellido: "pedrini "},
-  {nombre: "pablo",  apellido: "caco"},
-  {nombre: "vene",  apellido: "zuela"},
-  {nombre:"ja",  apellido:"jo"}
+
 ];
 
 var cuerpotabla = document.getElementById("cuerpotabla");
